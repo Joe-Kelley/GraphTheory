@@ -123,7 +123,7 @@ class TestBasicSearch(unittest.TestCase):
         self.assertEqual(explored_nodes, 13)    # Compare explored nodes to reference implementation
 
     def test_dijkstras(self):
-        """TTest and visualize uniform-cost search"""
+        """Test and visualize Dijkstra's Algo -- All node paths printed to console"""
         start = 'a'
         goal = 'n'
 
